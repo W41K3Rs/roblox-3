@@ -1,6 +1,6 @@
 -- // ui lib
 
-function toggleNoClip()
+_G.lib = [[function toggleNoClip()
     local a
     a =
         game:GetService("RunService").Stepped:connect(
@@ -1165,4 +1165,4 @@ function o:Init(a7)
         return av
     end
     return am
-end
+end]]
